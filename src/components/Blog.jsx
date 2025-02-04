@@ -1,5 +1,5 @@
 import { assets } from "../assets/assets";
-import Footer from "./Footer";
+import Footerblog from "./Footerblog";
 import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa"; // Para los iconos de redes sociales
 
 const Blog = () => {
@@ -88,7 +88,7 @@ const Blog = () => {
         </div>
       </div>
 
-      <Footer />
+      <Footerblog />
     </>
   );
 };
