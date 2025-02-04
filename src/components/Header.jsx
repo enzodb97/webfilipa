@@ -33,6 +33,10 @@ const Header = () => {
     </div>
     */}
 </div>
+<div>
+<img src={assets.scroll} alt="Scroll Down" className="w-42 mx-auto" />
+
+</div>
  </motion.div>
    
   </div>
