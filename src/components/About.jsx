@@ -13,7 +13,7 @@ const About = () => {
       <h1 className="text-2xl sm:text-4xl font-semibold md-2 catamaran text-yellow">
      
         SOBRE <span>{String.fromCharCode(32)}</span>
-        <span className="underline underline-offset-4 decoration-1 font-semibold under font-light catamaran">
+        <span className="underline underline-offset-4 decoration-1 font-semibold under catamaran">
          
           LA ARTISTA
         </span>
