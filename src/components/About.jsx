@@ -3,22 +3,26 @@ import { BiUser } from "react-icons/bi";
 import { PiPaintBrushBroad } from "react-icons/pi";
 import { GiStoneWall } from "react-icons/gi";
 import { SlPicture } from "react-icons/sl";
-
+import { motion } from "motion/react";
 const About = () => {
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0, x: 200 }}
+      transition={{ duration: 1 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      viewport={{ once: true }}
       className="flex flex-col items-center justify-center container mx-auto p-14 md:px-20 lg:px-32 w-full overflow-hidden"
       id="About"
     >
       <h1 className="text-2xl sm:text-4xl font-semibold md-2 catamaran text-yellow">
-     
         SOBRE <span>{String.fromCharCode(32)}</span>
         <span className="underline underline-offset-4 decoration-1 font-semibold under catamaran">
-         
           LA ARTISTA
         </span>
       </h1>
-      <p className="text-gray-500 max-w-80 text-center mb-8">Mi nombre es Mariana Arias</p>
+      <p className="text-gray-500 max-w-80 text-center mb-8">
+        Mi nombre es Mariana Arias
+      </p>
       <div className="flex flex-col md:flex-row items-center md:items-start md:gap-20">
         <img
           src={assets.brand_img}
@@ -48,11 +52,18 @@ const About = () => {
               <p>clientes confiaron</p>
             </div>
           </div>
-          <p className="my-10 max-w-lg"> Soy una artista visual apasionada por fusionar el arte pop con el realismo en formas orgánicas y tonos pasteles. Me especializo en crear murales y retratos de animales personalizados que reflejan la esencia y personalidad de mis clientes. Mi enfoque se centra en respetar los gustos e intenciones del cliente, adaptando colores y estilos para armonizar con el ambiente. Trabajo del arte desde 2018.
+          <p className="my-10 max-w-lg">
+            {" "}
+            Soy una artista visual apasionada por fusionar el arte pop con el
+            realismo en formas orgánicas y tonos pasteles. Me especializo en
+            crear murales y retratos de animales personalizados que reflejan la
+            esencia y personalidad de mis clientes. Mi enfoque se centra en
+            respetar los gustos e intenciones del cliente, adaptando colores y
+            estilos para armonizar con el ambiente. Trabajo del arte desde 2018.
           </p>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
