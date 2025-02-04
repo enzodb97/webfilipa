@@ -34,7 +34,7 @@ const Navbar = () => {
           <a href="#Projects" className="cursor-pointer hover:text-gray-400">
             Proyectos
           </a>
-          <a href="#Blog" className="cursor-pointer hover:text-gray-400">
+          <a href="/Blog" className="cursor-pointer hover:text-gray-400">
             Blog
           </a>
           <a href="#Contact" className="cursor-pointer hover:text-gray-400">
@@ -68,7 +68,7 @@ const Navbar = () => {
           <a onClick={() => setshowMobileMenu(false)} href="#Projects" className="px-4 py-2 rounded-full inline-block">
             Proyectos
           </a>
-          <a onClick={() => setshowMobileMenu(false)} href="#Blog" className="px-4 py-2 rounded-full inline-block">
+          <a onClick={() => setshowMobileMenu(false)} href="/Blog" className="px-4 py-2 rounded-full inline-block">
             Blog
           </a>
           <a onClick={() => setshowMobileMenu(false)} href="#Contact" className="px-4 py-2 rounded-full inline-block">

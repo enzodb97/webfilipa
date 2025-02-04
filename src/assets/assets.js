@@ -21,8 +21,10 @@ import project_img_9 from "./project_img_9.jpeg";
 import project_img_10 from "./project_img_10.jpeg";
 import project_img_11 from "./project_img_11.jpg";
 import scroll from "./scroll.gif";
+import blog from "./almaslibres.jpeg"
 
 export const assets = {
+  blog,
   scroll,
   filipap,
   filipan,

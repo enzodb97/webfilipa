@@ -1,5 +1,5 @@
 import { assets } from "../assets/assets";
-import { motion } from "motion/react"
+
 const Footer = () => {
   return (
     <div
@@ -32,7 +32,7 @@ const Footer = () => {
             <a href="#Projects" className="hover:text-white ">
               Proyectos
             </a>
-            <a href="#Blog" className="hover:text-white ">
+            <a href="/Blog" className="hover:text-white ">
               Blog
             </a>
             <a href="#Contact" className="hover:text-white ">
@@ -44,7 +44,7 @@ const Footer = () => {
        
       </div>
       </div>
-      <div className="border-t border-gray-700 py-4 mt-10 text-center text-gray-500">
+      <div className="border-t border-gray-700 py-4 mt-10 text-center text-white">
       Copyright 2025 | Filipa. All right reserved. Creador por <a href="https://porfolio-swart-phi.vercel.app/" target="_blank">Scriptal </a> 
       </div>
     </div>
