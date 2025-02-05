@@ -164,105 +164,106 @@ export const cuadrosData = [
 export const posts = [
   {
     id: 1,
-    title: 'Boost your conversion rate',
-    href: '#',
+    title: 'Almas Libres',
     description:
-      'Descubre estrategias efectivas para aumentar tus conversiones y mejorar el rendimiento de tu negocio.',
+      'Éste mural sin dudas fue de los que más me atravesó a la hora de pintarlo. Agustina, mi clienta, quería que todo tuviese un porqué. Escuché su historia y armamos juntas éste proyecto que no solo quedó soñado si no que también fue liberador para ella. Agus quería plasmar la esencia de la unión familiar aunque no estén todos los integrantes en el mismo plano. Su familia estaba conformada por su mamá, su hermana mayor y ella, quien a su vez tiene su pequeña familia, su compañero y dos hijos. Hace muy poco sufrió la pérdida de 3 pilares, su abuelo, su papá y su hermano. De esta manera y a libre interpretación el mural cuenta con un árbol de la vida, flores blancas, tres follajes rosas, un nido con tres huevos y 3 almas libres. MATERIALES - Acrilicos - Pinceles TIEMPO 18 horas',
     date: 'Mar 16, 2020',
     datetime: '2020-03-16',
-    category: { title: 'Marketing', href: '#' },
-    author: {
-      name: 'Michael Foster',
-      role: 'Co-Founder / CTO',
-      href: '#',
-      imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-    },
+    category: { title: 'Mural', href: '#' },
+    
     image:
-      'https://images.pexels.com/photos/16614542/pexels-photo-16614542/free-photo-of-flores-vaso-cristal-vidrio.jpeg',
+      'https://i.postimg.cc/VNtd49ZG/almas-libres.jpg',
   },
   {
     id: 2,
-    title: 'Boost your conversion rate',
-    href: '#',
+    title: 'Almas Libres',
     description:
-      'Descubre estrategias efectivas para aumentar tus conversiones y mejorar el rendimiento de tu negocio.',
+      'Éste mural sin dudas fue de los que más me atravesó a la hora de pintarlo. Agustina, mi clienta, quería que todo tuviese un porqué. Escuché su historia y armamos juntas éste proyecto que no solo quedó soñado si no que también fue liberador para ella. Agus quería plasmar la esencia de la unión familiar aunque no estén todos los integrantes en el mismo plano. Su familia estaba conformada por su mamá, su hermana mayor y ella, quien a su vez tiene su pequeña familia, su compañero y dos hijos. Hace muy poco sufrió la pérdida de 3 pilares, su abuelo, su papá y su hermano. De esta manera y a libre interpretación el mural cuenta con un árbol de la vida, flores blancas, tres follajes rosas, un nido con tres huevos y 3 almas libres. MATERIALES - Acrilicos - Pinceles TIEMPO 18 horas',
     date: 'Mar 16, 2020',
     datetime: '2020-03-16',
-    category: { title: 'Marketing', href: '#' },
-    author: {
-      name: 'Michael Foster',
-      role: 'Co-Founder / CTO',
-      href: '#',
-      imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-    },
+    category: { title: 'Mural', href: '#' },
+    
     image:
-      'https://images.pexels.com/photos/16614542/pexels-photo-16614542/free-photo-of-flores-vaso-cristal-vidrio.jpeg',
+      'https://i.postimg.cc/VNtd49ZG/almas-libres.jpg',
   },
-  {
-    
-      id: 3,
-      title: 'Boost your conversion rate',
-      href: '#',
-      description:
-        'Descubre estrategias efectivas para aumentar tus conversiones y mejorar el rendimiento de tu negocio.',
-      date: 'Mar 16, 2020',
-      datetime: '2020-03-16',
-      category: { title: 'Marketing', href: '#' },
-      author: {
-        name: 'Michael Foster',
-        role: 'Co-Founder / CTO',
-        href: '#',
-        imageUrl:
-          'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      },
-      image:
-      'https://images.pexels.com/photos/16614542/pexels-photo-16614542/free-photo-of-flores-vaso-cristal-vidrio.jpeg',
-    
-  },
+  
 ];
 export const proyectos = [
   {
     id: 1,
-    name: 'Camiseta Negra',
-    category: 'Ropa',
-    imageSrc: 'https://tailwindui.com/plus/img/ecommerce-images/product-page-01-related-product-01.jpg',
-    imageAlt: 'Camiseta negra básica para hombre.',
+    name: 'Mural CASABLANCA',
+    category: 'Mural',
+    imageSrc: 'https://i.postimg.cc/5NTVNhpG/project-img-1.jpg',
+    
   },
   {
     id: 2,
-    name: 'Zapatillas Blancas',
-    category: 'Calzado',
-    imageSrc: 'https://tailwindui.com/plus/img/ecommerce-images/product-page-01-related-product-02.jpg',
-    imageAlt: 'Zapatillas blancas de diseño moderno.',
+    name: 'Quiencho "El Encuentro"',
+    category: 'Mural',
+    imageSrc: 'https://i.postimg.cc/RZtz3gD0/project-img-2.jpg',
+    
   },
   {
     id: 3,
-    name: 'Mochila Urbana',
-    category: 'Accesorios',
-    imageSrc: 'https://tailwindui.com/plus/img/ecommerce-images/product-page-01-related-product-03.jpg',
-    imageAlt: 'Mochila negra con múltiples compartimentos.',
+    name: 'Vidriera local de niños',
+    category: 'Mural',
+    imageSrc: 'https://i.postimg.cc/0QkgBP26/project-img-3.jpg',
+    
   },
   {
     id: 4,
-    name: 'Camiseta Negra',
-    category: 'Ropa',
-    imageSrc: 'https://tailwindui.com/plus/img/ecommerce-images/product-page-01-related-product-01.jpg',
-    imageAlt: 'Camiseta negra básica para hombre.',
+    name: 'Vidriera Local de indumentaria',
+    category: 'Mural',
+    imageSrc: 'https://i.postimg.cc/bvjf1179/project-img-4.jpg',
+    
   },
   {
     id: 5,
-    name: 'Zapatillas Blancas',
-    category: 'Calzado',
-    imageSrc: 'https://tailwindui.com/plus/img/ecommerce-images/product-page-01-related-product-02.jpg',
-    imageAlt: 'Zapatillas blancas de diseño moderno.',
+    name: 'La habitación de Bianca',
+    category: 'Mural',
+    imageSrc: 'https://i.postimg.cc/8CBQ4jDQ/project-img-5.jpg',
+   
   },
   {
     id: 6,
+    name: 'Salón de Belleza y estética "Dana S"',
+    category: 'Mural',
+    imageSrc: 'https://i.postimg.cc/Y9dccZhd/project-img-6.jpg',
+    
+  },
+  {
+    id: 7,
+    name: 'El retrato de Toti',
+    category: 'Retrato',
+    imageSrc: 'https://i.postimg.cc/Vvvxzgtm/project-img-7.jpg',
+    
+  },
+  {
+    id: 8,
+    name: 'Salon de enventos Verónica Vera',
+    category: 'Mural',
+    imageSrc: 'https://i.postimg.cc/sxLtxWPS/project-img-8.jpg',
+    
+  },
+  {
+    id: 9,
     name: 'Mochila Urbana',
     category: 'Accesorios',
-    imageSrc: 'https://tailwindui.com/plus/img/ecommerce-images/product-page-01-related-product-03.jpg',
+    imageSrc: 'https://i.postimg.cc/WpfR5RR3/project-img-9.jpg',
     imageAlt: 'Mochila negra con múltiples compartimentos.',
   },
+  {
+    id: 10,
+    name: 'Living familiar',
+    category: 'Mural',
+    imageSrc: 'https://i.postimg.cc/qM9Pd8vH/project-img-10.jpg',
+    
+  },
+  {
+    id: 11,
+    name: 'El retrato de Tori',
+    category: 'Retrato',
+    imageSrc: 'https://i.postimg.cc/4NKDM8Z1/project-img-11.jpg',
+  },
+
 ];

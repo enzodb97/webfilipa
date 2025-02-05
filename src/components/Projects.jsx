@@ -15,7 +15,7 @@ export default function ProductGallery() {
           {proyectos.map((product) => (
             <div key={product.id} className="group relative">
               <img
-                alt={product.imageAlt}
+                alt={product.name}
                 src={product.imageSrc}
                 className="aspect-square w-full rounded-md bg-gray-200 object-cover cursor-pointer group-hover:opacity-75"
                 onClick={() => setSelectedImage(product.imageSrc)}
