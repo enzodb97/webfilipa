@@ -16,3 +16,9 @@ html {
 .footer-bg{
     background-color: #E1C16E	;
 }
+
+@media (max-width: 1280px) {
+    .logotype {
+      display: none; /* Se oculta en pantallas de 1024px o menos */
+    }
+}

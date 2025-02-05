@@ -107,5 +107,162 @@ export const projectsData = [
     image: project_img_11,
   },
 ];
+export const cuadrosData = [
+  {
+    name: 'Estándar',
+    id: 'cuadro-estandar',
+    href: '#',
+    precio: '$5.000',
+    dimensiones: '40x50',
+    description: 'Perfecto para decorar espacios pequeños y medianos.',
+    caracteristicas: [
+      'Dimensiones: 40x50 cm',
+      'Marco de madera premium',
+      'Vidrio protector antireflejo',
+      'Acabado mate o brillante',
+      'Garantía de 1 año'
+    ],
+    featured: false,
+  },
+  {
+    name: 'Premium',
+    id: 'cuadro-premium',
+    href: '#',
+    precio: '$7.500',
+    dimensiones: '50x70',
+    description: 'Ideal para espacios amplios y salas de estar.',
+    caracteristicas: [
+      'Dimensiones: 50x70 cm',
+      'Marco de madera premium',
+      'Vidrio protector antireflejo',
+      'Acabado mate o brillante',
+      'Garantía de 2 años',
+      'Instalación incluida'
+    ],
+    featured: true,
+  },
+  {
+    name: 'Deluxe',
+    id: 'cuadro-deluxe',
+    href: '#',
+    precio: '$10.000',
+    dimensiones: '70x100',
+    description: 'La mejor opción para espacios grandes y galerías.',
+    caracteristicas: [
+      'Dimensiones: 70x100 cm',
+      'Marco de madera de lujo',
+      'Vidrio protector museográfico',
+      'Acabado personalizado',
+      'Garantía de por vida',
+      'Instalación incluida',
+      'Certificado de autenticidad'
+    ],
+    featured: false,
+  }
+];
 
-
+export const posts = [
+  {
+    id: 1,
+    title: 'Boost your conversion rate',
+    href: '#',
+    description:
+      'Descubre estrategias efectivas para aumentar tus conversiones y mejorar el rendimiento de tu negocio.',
+    date: 'Mar 16, 2020',
+    datetime: '2020-03-16',
+    category: { title: 'Marketing', href: '#' },
+    author: {
+      name: 'Michael Foster',
+      role: 'Co-Founder / CTO',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+    image:
+      'https://images.pexels.com/photos/16614542/pexels-photo-16614542/free-photo-of-flores-vaso-cristal-vidrio.jpeg',
+  },
+  {
+    id: 2,
+    title: 'Boost your conversion rate',
+    href: '#',
+    description:
+      'Descubre estrategias efectivas para aumentar tus conversiones y mejorar el rendimiento de tu negocio.',
+    date: 'Mar 16, 2020',
+    datetime: '2020-03-16',
+    category: { title: 'Marketing', href: '#' },
+    author: {
+      name: 'Michael Foster',
+      role: 'Co-Founder / CTO',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+    image:
+      'https://images.pexels.com/photos/16614542/pexels-photo-16614542/free-photo-of-flores-vaso-cristal-vidrio.jpeg',
+  },
+  {
+    
+      id: 3,
+      title: 'Boost your conversion rate',
+      href: '#',
+      description:
+        'Descubre estrategias efectivas para aumentar tus conversiones y mejorar el rendimiento de tu negocio.',
+      date: 'Mar 16, 2020',
+      datetime: '2020-03-16',
+      category: { title: 'Marketing', href: '#' },
+      author: {
+        name: 'Michael Foster',
+        role: 'Co-Founder / CTO',
+        href: '#',
+        imageUrl:
+          'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      },
+      image:
+      'https://images.pexels.com/photos/16614542/pexels-photo-16614542/free-photo-of-flores-vaso-cristal-vidrio.jpeg',
+    
+  },
+];
+export const proyectos = [
+  {
+    id: 1,
+    name: 'Camiseta Negra',
+    category: 'Ropa',
+    imageSrc: 'https://tailwindui.com/plus/img/ecommerce-images/product-page-01-related-product-01.jpg',
+    imageAlt: 'Camiseta negra básica para hombre.',
+  },
+  {
+    id: 2,
+    name: 'Zapatillas Blancas',
+    category: 'Calzado',
+    imageSrc: 'https://tailwindui.com/plus/img/ecommerce-images/product-page-01-related-product-02.jpg',
+    imageAlt: 'Zapatillas blancas de diseño moderno.',
+  },
+  {
+    id: 3,
+    name: 'Mochila Urbana',
+    category: 'Accesorios',
+    imageSrc: 'https://tailwindui.com/plus/img/ecommerce-images/product-page-01-related-product-03.jpg',
+    imageAlt: 'Mochila negra con múltiples compartimentos.',
+  },
+  {
+    id: 4,
+    name: 'Camiseta Negra',
+    category: 'Ropa',
+    imageSrc: 'https://tailwindui.com/plus/img/ecommerce-images/product-page-01-related-product-01.jpg',
+    imageAlt: 'Camiseta negra básica para hombre.',
+  },
+  {
+    id: 5,
+    name: 'Zapatillas Blancas',
+    category: 'Calzado',
+    imageSrc: 'https://tailwindui.com/plus/img/ecommerce-images/product-page-01-related-product-02.jpg',
+    imageAlt: 'Zapatillas blancas de diseño moderno.',
+  },
+  {
+    id: 6,
+    name: 'Mochila Urbana',
+    category: 'Accesorios',
+    imageSrc: 'https://tailwindui.com/plus/img/ecommerce-images/product-page-01-related-product-03.jpg',
+    imageAlt: 'Mochila negra con múltiples compartimentos.',
+  },
+];
