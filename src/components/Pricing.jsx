@@ -10,10 +10,12 @@ export default function PricingSection() {
     <div className="bg-white py-24 sm:py-32" id="Pricing">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
-          <h2 className="text-base font-semibold leading-7 text-indigo-600">Precios</h2>
-          <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-            Elige el tamaño perfecto para tu espacio
-          </p>
+        <h1 className="text-2xl sm:text-4xl font-semibold md-2 catamaran text-yellow uppercase">
+        EL tamaño perfecto <span>{String.fromCharCode(32)}</span>
+        <span className="underline underline-offset-4 decoration-1 font-semibold under catamaran">
+          para tu espacio
+        </span>
+      </h1>
         </div>
         <p className="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-600">
           Todos nuestros cuadros están elaborados con los mejores materiales y acabados profesionales para 

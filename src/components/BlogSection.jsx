@@ -3,9 +3,12 @@ import { posts } from "../assets/assets";
 export default function BlogSection() {
     return (
         <div className="bg-white py-24 sm:py-32" id="Blog">
-          <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <div className="mx-auto max-w-2xl lg:mx-0">
-              <h2 className="text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Blog</h2>
+          <div className="mx-auto max-w-7xl px-6 lg:px-8 text-center">
+            <div className="mx-auto max-w-2xl lg:mx-0 ">
+            <h1 className="text-2xl sm:text-4xl font-semibold md-2 catamaran text-yellow">
+        BLOG <span>{String.fromCharCode(32)}</span>
+       
+      </h1>
               <p className="mt-2 text-lg text-gray-600">Te cuento como fue algunos murales.</p>
             </div>
             <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">

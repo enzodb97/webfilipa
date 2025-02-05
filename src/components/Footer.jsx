@@ -1,5 +1,5 @@
 import { assets } from "../assets/assets";
-import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa"; // Importamos iconos de redes sociales
+import { FaFacebook,  FaInstagram } from "react-icons/fa"; 
 
 const Footer = () => {
   return (
@@ -46,15 +46,11 @@ const Footer = () => {
             <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-500 transition">
               <FaFacebook size={24} />
             </a>
-            <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition">
-              <FaTwitter size={24} />
-            </a>
+            
             <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-pink-500 transition">
               <FaInstagram size={24} />
             </a>
-            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-red-500 transition">
-              <FaYoutube size={24} />
-            </a>
+            
           </div>
         </div>
       </div>
