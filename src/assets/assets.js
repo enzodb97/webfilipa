@@ -111,7 +111,7 @@ export const cuadrosData = [
   {
     name: 'Estándar',
     id: 'cuadro-estandar',
-    href: '#',
+    href: 'https://wa.me/543876434135?text=Hola%20Filipa!%20Quiero%20comprar%20un%20retrato%20estándar',
     precio: '$5.000',
     dimensiones: '40x50',
     description: 'Perfecto para decorar espacios pequeños y medianos.',
@@ -127,7 +127,7 @@ export const cuadrosData = [
   {
     name: 'Premium',
     id: 'cuadro-premium',
-    href: '#',
+    href: 'https://wa.me/543876434135?text=Hola%20Filipa!%20Quiero%20comprar%20un%20retrato%20premium',
     precio: '$7.500',
     dimensiones: '50x70',
     description: 'Ideal para espacios amplios y salas de estar.',
@@ -144,7 +144,7 @@ export const cuadrosData = [
   {
     name: 'Deluxe',
     id: 'cuadro-deluxe',
-    href: '#',
+    href: 'https://wa.me/543876434135?text=Hola%20Filipa!%20Quiero%20comprar%20un%20retrato%20deluxe',
     precio: '$10.000',
     dimensiones: '70x100',
     description: 'La mejor opción para espacios grandes y galerías.',

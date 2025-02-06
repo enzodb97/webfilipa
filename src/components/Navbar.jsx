@@ -18,12 +18,12 @@ const Navbar = () => {
   return (
     <div className="fixed top-0 left-0 w-full z-50 bg-white bg-opacity-90">
       <div className="container mx-auto flex justify-between items-center py-4 px-6 md:px-20 lg:px-32">
-        <a href="/" className="flex items-start">
+        <a href="#Header" className="flex items-start">
           <img src={assets.logo} alt="logo" className="w-13 logotype" />
         </a>
 
         <ul className="hidden lg:flex gap-7 text-lg text-black catamaran">
-          <a href="/" className="cursor-pointer hover:text-gray-400">
+          <a href="#" className="cursor-pointer hover:text-gray-400">
             Inicio
           </a>
           <a href="#About" className="cursor-pointer hover:text-gray-400">
@@ -75,7 +75,7 @@ const Navbar = () => {
         </div>
 
         <ul className="flex flex-col items-center gap-5 mt-5 px-5 text-3xl font-medium">
-          <a onClick={() => setShowMobileMenu(false)} href="/">
+          <a onClick={() => setShowMobileMenu(false)} href="#Header">
             Inicio
           </a>
           <a onClick={() => setShowMobileMenu(false)} href="#About">
