@@ -13,7 +13,7 @@ const App = () => {
     <div className="w-full overflow-hidden">
       {/* Metadatos dinámicos con Helmet */}
       <Helmet>
-        <title>Mi Sitio con React y Vite</title>
+        <title>Filipa - Murales y Cuadros en Rosario. Pinturas de tu mascota y murales en tu negocio.</title>
         <meta name="author" content="Scriptal - Enzo Bertolusso" />
         <meta name="keywords" content="pintura, murales, a mano, filipa, retrato de mascotas, envíos a todo el país, Rosario Santa Fe" />
         <meta name="description" content="Arte personalizado: murales, retratos de mascotas y más. Envíos a todo el país desde Rosario, Santa Fe." />
