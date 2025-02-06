@@ -134,7 +134,6 @@ export const cuadrosData = [
       'Dimensiones: 40x30 cm',
       'Color de fondo plano, degrade o beteado a elección ',
       'Acabado mate o brillante a elección',
-      'Garantía de 2 años',
       'Garantía 8 meses'
     ],
     featured: true,
