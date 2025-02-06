@@ -92,7 +92,7 @@ export const projectsData = [
     image: project_img_8,
   },
   {
-    title: "Living familiar",
+    title: "Salón de eventos",
 
     image: project_img_9,
   },
@@ -198,7 +198,7 @@ export const proyectos = [
   },
   {
     id: 2,
-    name: 'Quiencho "El Encuentro"',
+    name: 'Quincho "El Encuentro"',
     category: 'Mural',
     imageSrc: 'https://i.postimg.cc/RZtz3gD0/project-img-2.jpg',
     
@@ -247,7 +247,7 @@ export const proyectos = [
   },
   {
     id: 9,
-    name: 'Mochila Urbana',
+    name: 'Living Familiar',
     category: 'Accesorios',
     imageSrc: 'https://i.postimg.cc/WpfR5RR3/project-img-9.jpg',
     imageAlt: 'Mochila negra con múltiples compartimentos.',
