@@ -191,11 +191,11 @@ export const proyectos = [
     "category": "Mural",
     "imageSrc": "https://i.postimg.cc/qM9Pd8vH/project-img-10.jpg"
   },
-  {
+   {
     "id": 2,
-    "name": "El retrato de Toti",
+    "name": "El retrato de Tori",
     "category": "Retrato",
-    "imageSrc": "https://i.postimg.cc/Vvvxzgtm/project-img-7.jpg"
+    "imageSrc": "https://i.postimg.cc/4NKDM8Z1/project-img-11.jpg"
   },
   {
     "id": 3,
@@ -209,11 +209,12 @@ export const proyectos = [
     "category": "Mural",
     "imageSrc": "https://i.postimg.cc/Y9dccZhd/project-img-6.jpg"
   },
-  {
+
+   {
     "id": 5,
-    "name": "El retrato de Tori",
+    "name": "El retrato de Toti",
     "category": "Retrato",
-    "imageSrc": "https://i.postimg.cc/4NKDM8Z1/project-img-11.jpg"
+    "imageSrc": "https://i.postimg.cc/Vvvxzgtm/project-img-7.jpg"
   },
   {
     "id": 6,
