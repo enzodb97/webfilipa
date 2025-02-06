@@ -187,80 +187,70 @@ export const posts = [
 ];
 export const proyectos = [
   {
-    id: 3,
-    name: 'Mural CASABLANCA',
-    category: 'Mural',
-    imageSrc: 'https://i.postimg.cc/5NTVNhpG/project-img-1.jpg',
-    
+    "id": 1,
+    "name": "Salon de eventos",
+    "category": "Mural",
+    "imageSrc": "https://i.postimg.cc/qM9Pd8vH/project-img-10.jpg"
   },
   {
-    id: 11,
-    name: 'Quincho "El Encuentro"',
-    category: 'Mural',
-    imageSrc: 'https://i.postimg.cc/RZtz3gD0/project-img-2.jpg',
-    
+    "id": 2,
+    "name": "El retrato de Toti",
+    "category": "Retrato",
+    "imageSrc": "https://i.postimg.cc/Vvvxzgtm/project-img-7.jpg"
   },
   {
-    id: 10,
-    name: 'Vidriera local de niños',
-    category: 'Mural',
-    imageSrc: 'https://i.postimg.cc/0QkgBP26/project-img-3.jpg',
-    
+    "id": 3,
+    "name": "Mural CASABLANCA",
+    "category": "Mural",
+    "imageSrc": "https://i.postimg.cc/5NTVNhpG/project-img-1.jpg"
   },
   {
-    id: 7,
-    name: 'Vidriera Local de indumentaria',
-    category: 'Mural',
-    imageSrc: 'https://i.postimg.cc/bvjf1179/project-img-4.jpg',
-    
+    "id": 4,
+    "name": "Salón de Belleza y estética 'Dana S'",
+    "category": "Mural",
+    "imageSrc": "https://i.postimg.cc/Y9dccZhd/project-img-6.jpg"
   },
   {
-    id: 8,
-    name: 'La habitación de Bianca',
-    category: 'Mural',
-    imageSrc: 'https://i.postimg.cc/8CBQ4jDQ/project-img-5.jpg',
-   
+    "id": 5,
+    "name": "El retrato de Tori",
+    "category": "Retrato",
+    "imageSrc": "https://i.postimg.cc/4NKDM8Z1/project-img-11.jpg"
   },
   {
-    id: 4,
-    name: 'Salón de Belleza y estética "Dana S"',
-    category: 'Mural',
-    imageSrc: 'https://i.postimg.cc/Y9dccZhd/project-img-6.jpg',
-    
+    "id": 6,
+    "name": "Salon de eventos Verónica Vera",
+    "category": "Mural",
+    "imageSrc": "https://i.postimg.cc/sxLtxWPS/project-img-8.jpg"
   },
   {
-    id: 2,
-    name: 'El retrato de Toti',
-    category: 'Retrato',
-    imageSrc: 'https://i.postimg.cc/Vvvxzgtm/project-img-7.jpg',
-    
+    "id": 7,
+    "name": "Vidriera Local de indumentaria",
+    "category": "Mural",
+    "imageSrc": "https://i.postimg.cc/bvjf1179/project-img-4.jpg"
   },
   {
-    id: 6,
-    name: 'Salon de enventos Verónica Vera',
-    category: 'Mural',
-    imageSrc: 'https://i.postimg.cc/sxLtxWPS/project-img-8.jpg',
-    
+    "id": 8,
+    "name": "La habitación de Bianca",
+    "category": "Mural",
+    "imageSrc": "https://i.postimg.cc/8CBQ4jDQ/project-img-5.jpg"
   },
   {
-    id: 9,
-    name: 'Living Familiar',
-    category: 'Mural',
-    imageSrc: 'https://i.postimg.cc/WpfR5RR3/project-img-9.jpg',
-    
+    "id": 9,
+    "name": "Living Familiar",
+    "category": "Mural",
+    "imageSrc": "https://i.postimg.cc/WpfR5RR3/project-img-9.jpg"
   },
   {
-    id: 1,
-    name: 'Salon de eventos',
-    category: 'Mural',
-    imageSrc: 'https://i.postimg.cc/qM9Pd8vH/project-img-10.jpg',
-    
+    "id": 10,
+    "name": "Vidriera local de niños",
+    "category": "Mural",
+    "imageSrc": "https://i.postimg.cc/0QkgBP26/project-img-3.jpg"
   },
   {
-    id: 2,
-    name: 'El retrato de Tori',
-    category: 'Retrato',
-    imageSrc: 'https://i.postimg.cc/4NKDM8Z1/project-img-11.jpg',
-  },
+    "id": 11,
+    "name": "Quincho 'El Encuentro'",
+    "category": "Mural",
+    "imageSrc": "https://i.postimg.cc/RZtz3gD0/project-img-2.jpg"
+  }
 
 ];
