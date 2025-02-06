@@ -12,7 +12,7 @@ export default function BlogSection() {
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-8 text-center">
         <div className="mx-auto max-w-2xl lg:mx-0 ">
-          <h1 className="text-2xl sm:text-4xl font-semibold md-2 catamaran text-yellow">
+          <h1 className="text-2xl sm:text-4xl md-2 bebas text-yellow">
             BLOG <span>{String.fromCharCode(32)}</span>
           </h1>
           <p className="mt-2 text-lg text-gray-600">

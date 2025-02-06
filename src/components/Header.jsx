@@ -23,7 +23,7 @@ const Header = () => {
         viewport={{ once: true }}
         className="container text-center mx-auto py-4 px-6 md:px-20 lg:px-32 text-white"
       >
-        <h2 className="catamaran text-5xl sm:text-6xl md:text-[82px] inline-block max-w-3xl font-semibold pt-20">
+        <h2 className="bebas text-5xl sm:text-6xl md:text-[82px] inline-block max-w-3xl font-semibold pt-20">
           ELEVA TUS ESPACIOS CON ARTE
         </h2>
         <div>

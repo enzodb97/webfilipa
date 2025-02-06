@@ -48,7 +48,7 @@ const Contact = () => {
       className="text-center p-6 py-20 lg:px-32 w-full overflow-hidden "
       id="Contact"
     >
-      <h1 className=" uppercase text-2xl sm:text-4xl font-bold mb-2 text-center text-yellow catamaran">
+      <h1 className=" uppercase text-2xl sm:text-4xl mb-2 text-center text-yellow bebas">
         Contacto
       </h1>
       <p className="text-center text-gray-500 mb-12 max-w-80 mx-auto ">

@@ -18,7 +18,7 @@ const Footer = () => {
 
         {/* Links de navegación */}
         <div className="w-full md:w-1/5">
-          <h3 className="text-white text-2xl font-bold mb-4 catamaran uppercase">
+          <h3 className="text-white text-2xl mb-4 bebas uppercase">
             Navegación
           </h3>
           <ul className="flex flex-col gap-2">
@@ -57,7 +57,7 @@ const Footer = () => {
 
         {/* Redes sociales */}
         <div className="w-full md:w-1/3">
-          <h3 className="text-white text-2xl font-bold mb-4 catamaran uppercase">
+          <h3 className="text-white text-2xl bebas mb-4  uppercase">
             Sígueme
           </h3>
           <div className="flex space-x-6">

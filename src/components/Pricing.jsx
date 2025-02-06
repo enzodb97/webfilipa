@@ -17,9 +17,9 @@ export default function PricingSection() {
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
-          <h1 className="text-2xl sm:text-4xl font-semibold md-2 catamaran text-yellow uppercase">
+          <h1 className="text-2xl sm:text-4xl md-2 bebas text-yellow uppercase">
             EL tamaño perfecto <span>{String.fromCharCode(32)}</span>
-            <span className="underline underline-offset-4 decoration-1 font-semibold under catamaran">
+            <span className="underline underline-offset-4 decoration-1 under bebas">
               para tu espacio
             </span>
           </h1>

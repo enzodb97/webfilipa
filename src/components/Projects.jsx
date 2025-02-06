@@ -14,9 +14,9 @@ export default function ProductGallery() {
       id="Projects"
     >
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 text-center">
-        <h1 className="text-2xl sm:text-4xl font-semibold md-2 catamaran text-yellow">
+        <h1 className="text-2xl sm:text-4xl md-2 bebas text-yellow">
           PROYECTOS <span>{String.fromCharCode(32)}</span>
-          <span className="underline underline-offset-4 decoration-1 font-semibold under catamaran">
+          <span className="underline underline-offset-4 decoration-1 under bebas">
             REALIZADOS
           </span>
         </h1>
