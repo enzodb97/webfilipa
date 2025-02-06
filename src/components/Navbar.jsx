@@ -18,9 +18,9 @@ const Navbar = () => {
   return (
     <div className="fixed top-0 left-0 w-full z-50 bg-white bg-opacity-90">
       <div className="container mx-auto flex justify-between items-center py-4 px-6 md:px-20 lg:px-32">
-      <a href="/" className="flex items-start">
-  <img src={assets.logo} alt="logo" className="w-13 logotype" />
-</a>
+        <a href="/" className="flex items-start">
+          <img src={assets.logo} alt="logo" className="w-13 logotype" />
+        </a>
 
         <ul className="hidden lg:flex gap-7 text-lg text-black catamaran">
           <a href="/" className="cursor-pointer hover:text-gray-400">
@@ -45,7 +45,9 @@ const Navbar = () => {
             Contacto
           </a>
           <button className="hidden md:block bg-black px-8 py-2 rounded-full">
-            <a href="#Contact" className="text-white">Contactame</a>
+            <a href="#Contact" className="text-white">
+              Contactame
+            </a>
           </button>
         </ul>
 
